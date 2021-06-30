@@ -13,10 +13,10 @@
   "layer_norm_epsilon": 1e-05,
   "model_type": "gpt2",
   "n_ctx": 1024,
-  "n_embd": 768,
-  "n_head": 12,
+  "n_embd": 1024,
+  "n_head": 16,
   "n_inner": null,
-  "n_layer": 12,
+  "n_layer": 24,
   "n_positions": 1024,
   "resid_pdrop": 0.1,
   "scale_attn_weights": true,
@@ -30,7 +30,7 @@
       "max_length": 1000
     }
   },
-  "transformers_version": "4.6.1",
+  "transformers_version": "4.8.2",
   "use_cache": true,
   "vocab_size": 50257
 }
